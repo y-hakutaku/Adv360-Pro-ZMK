@@ -1,3 +1,15 @@
+macro_triple_graves: macro_triple_graves{
+compatible = "zmk,behavior-macro";
+label = "macro_triple_graves";
+#binding-cells = <0>;
+bindings = <&kp GRAVE>, <&kp GRAVE>, <&kp GRAVE>;
+};
+macro_garves: macro_garves{
+compatible = "zmk,behavior-macro";
+label = "macro_garves";
+#binding-cells = <0>;
+bindings = <&kp GRAVE>, <&kp GRAVE>, <&kp LEFT>;
+};
 macro_xcode_build: macro_xcode_build{
 compatible = "zmk,behavior-macro";
 label = "macro_xcode_build";
