@@ -31,7 +31,7 @@
     };
 
     macros {
-        sleep_macro: sleep_macro {
+        lock_macro: sleep_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LC(LG(Q))>;
@@ -57,6 +57,13 @@
             #binding-cells = <0>;
             bindings = <&kp LA(LC(LG(NUMBER_3)))>;
             label = "DESK_TOP3";
+        };
+
+        sleep_macro: sleep_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LG(LC(Q)))>;
+            label = "SLEEP_MACRO";
         };
     };
 
